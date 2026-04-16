@@ -7,7 +7,7 @@ int main() {
 
     for (int i = 0; i < 6; i++)
     {
-        printf("%d ", **pp+i);
+        printf("%d ", *(*pp+i));
     }
     
 }
